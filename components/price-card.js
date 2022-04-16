@@ -26,7 +26,7 @@ export default function PriceCard({
           </Heading>
           <Text as="p">{description}</Text>
         </Box>
-        <List item={points} childStyle={styles.listItem} />
+        <List items={points} childStyle={styles.listItem} />
         <Text className="package__price" sx={styles.price}>
           {priceWithUnit}
           <span>/Monthly</span>
